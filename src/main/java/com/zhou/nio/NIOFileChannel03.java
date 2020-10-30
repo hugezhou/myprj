@@ -22,7 +22,7 @@ public class NIOFileChannel03 {
 
             byteBuffer.clear();
             int read = fileChannel01.read(byteBuffer);
-            if (read != -1){
+            if (read == -1){
                 break;
             }
             byteBuffer.flip();
