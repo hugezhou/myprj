@@ -4,6 +4,9 @@ import java.io.RandomAccessFile;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
+/**
+ * MappedByteBuffer 好处内存中修改，堆外内润
+ */
 public class MapperByteBuffer {
 
     public static void main(String[] args) throws Exception{
