@@ -43,7 +43,9 @@ public class NioServer {
 
         while (true){
 
-            if (selector.select(1000)==0){
+            int num = selector.select(1000);
+            System.out.println("连接数："+num);
+            if (num==0){
                 System.out.println("服务器等待了1秒，无连接");
                 continue;
             }
@@ -73,7 +75,7 @@ public class NioServer {
 
                     socketChannel.read(byteBuffer);
 
-                    System.out.println("from client"+new String(byteBuffer.array()));
+                    System.out.println("from client:"+new String(byteBuffer.array()));
 
                 }
 
