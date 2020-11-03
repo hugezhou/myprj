@@ -61,6 +61,8 @@ public class NioServer {
                 if (key.isAcceptable()){
                     SocketChannel socketChannel = serverSocketChannel.accept();
 
+                    System.out.println("SocketChannel.hashCode:"+socketChannel.hashCode());
+
                     socketChannel.configureBlocking(false);
 
                     socketChannel.register(selector,SelectionKey.OP_READ, ByteBuffer.allocate(1024));

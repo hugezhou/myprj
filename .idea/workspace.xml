@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b4e9f9b-ce56-4c38-a674-e138075336c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/nio/NioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/nio/NioClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhou/nio/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/nio/NioServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,7 +104,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/nio/NioServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="-224">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -282,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604387382555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604387805014" />
     <property name="last_opened_file_path" value="E:/WorkSpace/ibweb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -405,7 +403,7 @@
       <workItem from="1604020024491" duration="11256000" />
       <workItem from="1604043156518" duration="5047000" />
       <workItem from="1604279467856" duration="8966000" />
-      <workItem from="1604305361804" duration="10388000" />
+      <workItem from="1604305361804" duration="10656000" />
     </task>
     <task id="LOCAL-00001" summary="sahdifjoisdj">
       <created>1604024557772</created>
@@ -418,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41042000" />
+    <option name="totallyTimeSpent" value="41310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,18 +440,18 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44289693" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3454039" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3454039" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32729805" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32729805" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.22144847" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.28133705" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.48189417" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -801,7 +799,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/nio/NioServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="-224">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
