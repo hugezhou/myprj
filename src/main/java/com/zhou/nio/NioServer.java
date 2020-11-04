@@ -19,6 +19,14 @@ import java.util.WeakHashMap;
  * Java NIO中的 ServerSocketChannel 是一个可以监听新进来的TCP连接的通道,
  * 就像标准IO中的ServerSocket一样。
  * ServerSocketChannel类在 java.nio.channels包中。
+ *
+ *
+ *
+ * Wraps a byte array into a buffer.
+ * (将字节数组包装到缓冲区中)
+ *
+ *
+ *
  */
 public class NioServer {
 
