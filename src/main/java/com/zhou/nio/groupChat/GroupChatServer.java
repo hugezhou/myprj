@@ -41,7 +41,7 @@ public class GroupChatServer {
         try{
 
             while (true){
-                int count = selector.select(2000);
+                int count = selector.select();
                 if (count > 0){
                     Iterator<SelectionKey> keyIterator
                             = selector.selectedKeys().iterator();
@@ -54,9 +54,10 @@ public class GroupChatServer {
 
                             SocketChannel sc = listenChannel.accept();
 
+                            sc.configureBlocking(false);
+
                             sc.register(selector,SelectionKey.OP_READ);
 
-                            sc.configureBlocking(false);
 
                             System.out.println(sc.getRemoteAddress()+" 上线..");
                         }
@@ -66,6 +67,7 @@ public class GroupChatServer {
                         }
                         keyIterator.remove();
                     }
+
 
 
                 }else {
@@ -89,17 +91,27 @@ public class GroupChatServer {
 
             ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
 
-            Integer count = socketChannel.read(byteBuffer);
+            int count = socketChannel.read(byteBuffer);
 
             if (count > 0){
 
                 String msg = new String(byteBuffer.array());
 
+                System.out.println("from 客户端"+msg);
+
                 sendInfoToOtherClients(msg,socketChannel);
 
             }
         } catch (IOException e) {
-            e.printStackTrace();
+
+            try {
+                System.out.println(socketChannel.getRemoteAddress()+" 离线。。");
+                key.cancel();
+                socketChannel.close();
+
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
         }
 
 
